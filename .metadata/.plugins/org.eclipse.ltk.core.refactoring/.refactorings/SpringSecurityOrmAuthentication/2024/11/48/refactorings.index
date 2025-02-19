@@ -1,0 +1,4 @@
+1732975672832	Extract local variable 'encode'
+1732987736424	Extract local variable 'user'
+1732988619571	Extract local variable 'collect'
+1732989487357	Extract local variable 'daoAuthenticationProvider'

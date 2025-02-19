@@ -1,0 +1,5 @@
+package in.pwskill.deepesh.configuration;
+
+public class AppConfig {
+
+}

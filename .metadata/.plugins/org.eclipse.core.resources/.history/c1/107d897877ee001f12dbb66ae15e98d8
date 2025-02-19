@@ -1,0 +1,6 @@
+spring.application.name=SpringServiceB
+
+
+server.port = 8083
+
+#connecting port to zipkin server

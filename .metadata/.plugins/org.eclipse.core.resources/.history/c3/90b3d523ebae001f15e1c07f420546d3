@@ -1,0 +1,13 @@
+package in.pwskill.deepesh.service;
+
+import in.pwskill.deepesh.entity.User;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public Integer saveUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

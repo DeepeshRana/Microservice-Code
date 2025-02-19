@@ -1,0 +1,23 @@
+package in.pwskill.deepesh;
+
+import java.util.Iterator;
+
+class Prac extends Thread{
+	
+	public void run() {
+		for (int i = 0; i < 10 ; i++) {
+			System.out.println("Inside run method !!!");
+		}
+	}
+	
+}
+public class Demo {
+	public static void main(String[] args) {
+		
+		Prac prac = new Prac();
+		prac.start();
+		for(int i = 0; i < 10 ; i++) {
+			System.out.println("Inside main method !!!");
+		}
+	}
+}

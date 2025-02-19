@@ -1,0 +1,10 @@
+spring.application.name=SpringServiceA
+
+
+server.port = 8082
+
+#connecting port to zipkin server
+management.tracing.enabled=true
+management.tracing.sampling.probability=1.0
+
+management.zipkin.tracing.endpoint=://localhost:9411 
